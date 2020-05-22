@@ -1,0 +1,11 @@
+#!bin/bash
+
+rm -f stars.sqlite;
+echo "Bonjour, la base de données stars.sqlite est en cours de création . . .";
+echo "Patientez un instant, Merci";
+echo "Création des tables . . .";
+sqlite3 stars.sqlite < ./script/build_stars_sqlite.sql;
+echo "Remplissage des tables . . .";
+sqlite3 stars.sqlite < ./script/db_stars.sql;
+echo "Création terminée de stars.sqlite";
+echo "Stars Database by : Thierry Diane Boris | Classe 34";

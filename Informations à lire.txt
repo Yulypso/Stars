@@ -1,0 +1,15 @@
+Bonjour, 
+	Pour commencer à utiliser notre Stars Database,
+	il vous suffit de vous placer dans le répertoire : Stars_Database
+	puis de lancer le script Building&Filling.txt en entrant : 
+
+					bash SCRIPT_Building&Filling.txt
+
+	Entrez dans la base de données en entrant : 
+		
+					sqlite3 stars.sqlite 
+
+	Bonne journée,
+	
+	Thierry, Diane et Boris
+	Classe 34
